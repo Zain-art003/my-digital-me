@@ -83,7 +83,9 @@ const HeroSection = () => {
               <Mail size={16} />
             </a>
             <a
-              href="tel:081232623438"
+              href="https://wa.me/6281232623438"
+              target="_blank"
+              rel="noreferrer"
               className="w-9 h-9 flex items-center justify-center rounded-lg border border-border text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
             >
               <Phone size={16} />
