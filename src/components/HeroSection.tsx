@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, Phone, ArrowDown } from "lucide-react";
+import { Link } from "react-router-dom";
 import profileImg from "@/assets/profile.jpg";
 
 const HeroSection = () => {
@@ -65,6 +66,12 @@ const HeroSection = () => {
             >
               Get in Touch
             </a>
+            <Link
+              to="/cv"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-body font-semibold text-sm hover:border-primary hover:text-primary transition-all duration-300"
+            >
+              View / Download CV
+            </Link>
           </div>
 
           <div className="flex items-center gap-4">
